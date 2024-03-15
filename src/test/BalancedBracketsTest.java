@@ -55,12 +55,12 @@ public class BalancedBracketsTest {
 
     @Test
     public void mixedCharactersWithBrackets() {
-        assertTrue(BalancedBrackets.hasBalancedBrackets("a[b]c{d}e(f)g"));
+        assertTrue(BalancedBrackets.hasBalancedBrackets("Hola[Hola]{hola}hola(hola)hola"));
     }
 
     @Test
     public void bracketsWithOtherCharactersInBetween() {
-        assertTrue(BalancedBrackets.hasBalancedBrackets("[abc{def}ghi]"));
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[Hola{Hola}Hola]"));
     }
 
     @Test

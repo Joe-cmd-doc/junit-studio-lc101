@@ -31,11 +31,11 @@
    - Expected Output: false
 
 8. **Mixed characters with brackets:**
-   - Input: "a[b]c{d}e(f)g"
+   - Input: "Hola[Hola]Hola{Hola}Hola(Hola)Hola"
    - Expected Output: true
 
 9. **Brackets with other characters in between:**
-   - Input: "[abc{def}ghi]"
+   - Input: "[Hola{Hola}Hola]"
    - Expected Output: true
 
 10. **Longer expression with balanced brackets:**
@@ -47,6 +47,6 @@
     - Expected Output: false
 
 12. **Combination of brackets and characters:**
-    - Input: "{abc[def]ghi}jkl"
+    - Input: "{Hola[Hola]Hola}Hola"
     - Expected Output: true
 
